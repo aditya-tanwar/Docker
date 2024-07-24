@@ -9,7 +9,3 @@ trigger:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-
-- script: |
-    ls && docker images 
-  displayName: 'Run a multi-line script'
